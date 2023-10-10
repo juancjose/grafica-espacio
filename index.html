@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GraficaEspacio</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Bienvenido a GraficaEspacio</h1>
+    <button id="iniciarCompraBtn">Iniciar Compra</button>
+    <div id="compraForm" style="display: none;">
+        <label for="impresion">Seleccione una opcion:</label>
+        <select id="impresion">
+            <option value="1 a 20mts">1 a 20 metros</option>
+            <option value="20 a 50mts">20 a 50 metros</option>
+            <option value="51 a 100mts">51 a 100 metros</option>
+            <option value="100 o mas mts">100 o mas metros</option>
+        </select>
+        <br>
+        <label for="cantidad">Cantidad de metros a imprimir:</label>
+        <input type="number" id="cantidad" min="1" value="1">
+        <br>
+        <button id="agregarProductoBtn">Agregar al Carrito</button>
+        <button id="finalizarCompraBtn">Finalizar Compra</button>
+        <br>
+        <p>Total: $<span id="total">0</span></p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
