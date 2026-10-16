@@ -1,6 +1,6 @@
 # GráficaEspacio — Simulador de compra de impresión
 
-Simulador de compra de metros de impresión para la imprenta Gráfica Espacio, hecho en JavaScript como pre-entrega (3ª) de un curso de JavaScript.
+Simulador de compra de metros de impresión para la imprenta Gráfica Espacio, hecho en JavaScript como 3ª pre-entrega.
 
 ## Funcionalidades
 - Formulario para elegir un rango de metros de impresión y la cantidad.
